@@ -8,8 +8,8 @@
 
 
     <Button
-        android:id="@+id/btnRegistro"
-        android:layout_width="178dp"
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
         android:layout_height="45dp"
         android:background="@android:color/black"
         android:text="Login"
@@ -19,28 +19,26 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.811" />
+        app:layout_constraintVertical_bias="0.867" />
 
     <Button
-        android:id="@+id/btnLogin"
-        android:layout_width="178dp"
+        android:id="@+id/btnRegistro"
+        android:layout_width="match_parent"
         android:layout_height="45dp"
-        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
         android:background="@android:color/black"
         android:text="Registrar-se"
         android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.843"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.811" />
+        app:layout_constraintTop_toBottomOf="@+id/btnLogin"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="0dp" />
 
     <EditText
         android:id="@+id/edtEmail"
         android:layout_width="match_parent"
         android:layout_height="40dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="8dp"
         android:background="#0D000000"
         android:ems="10"
         android:hint="Digite Sua Senha"
@@ -48,10 +46,8 @@
         android:textAlignment="center"
         android:textColor="#000000"
         android:textColorHint="#000000"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edtSenha" />
+        app:layout_constraintTop_toBottomOf="@+id/edtSenha"
+        tools:layout_editor_absoluteX="16dp" />
 
     <EditText
         android:id="@+id/edtSenha"
@@ -69,7 +65,7 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.462" />
+        app:layout_constraintVertical_bias="0.499" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
