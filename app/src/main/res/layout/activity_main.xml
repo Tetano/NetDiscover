@@ -35,7 +35,7 @@
         tools:layout_editor_absoluteX="0dp" />
 
     <EditText
-        android:id="@+id/edtEmail"
+        android:id="@+id/edtSenha"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_marginTop="8dp"
@@ -46,11 +46,11 @@
         android:textAlignment="center"
         android:textColor="#000000"
         android:textColorHint="#000000"
-        app:layout_constraintTop_toBottomOf="@+id/edtSenha"
+        app:layout_constraintTop_toBottomOf="@+id/edtEmail"
         tools:layout_editor_absoluteX="16dp" />
 
     <EditText
-        android:id="@+id/edtSenha"
+        android:id="@+id/edtEmail"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:background="#0D000000"
