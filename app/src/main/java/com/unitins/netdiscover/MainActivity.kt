@@ -66,7 +66,7 @@ private fun registerUser() {
         else{
             Toast.makeText(this,"Você está logado",Toast.LENGTH_LONG)
             Toast.makeText(this,"Botão login pressionado",Toast.LENGTH_LONG).show();
-            val intent = Intent(context,Dashboard::class.java);
+            val intent = Intent(context,Cadastrarhardware::class.java);
             startActivity(intent);
             finish();
         }

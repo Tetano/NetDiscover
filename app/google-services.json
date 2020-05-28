@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1012035344197",
+    "firebase_url": "https://netdiscover-9b160.firebaseio.com",
+    "project_id": "netdiscover-9b160",
+    "storage_bucket": "netdiscover-9b160.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1012035344197:android:148b7638ece73b770f102c",
+        "android_client_info": {
+          "package_name": "com.unitins.netdiscover"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1012035344197-8hp3raefngjo3iam1hrnvdull6tt5trg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.unitins.netdiscover",
+            "certificate_hash": "c8dc40478b7fd607c96d6d1e15f3d8edab7cd3f6"
+          }
+        },
+        {
+          "client_id": "1012035344197-fm7ln1ja6n2mgj3cv2s8oui2rkcs9viq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5Zbs-wgLn9O1SnPC5mMXmwHIatww49Eo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1012035344197-fm7ln1ja6n2mgj3cv2s8oui2rkcs9viq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
