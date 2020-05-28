@@ -9,8 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Registrar"></activity>
-        <activity android:name=".Monitorahardware" />
+        <activity android:name=".Cadastrarhardware"></activity>
+        <activity android:name=".Registrar" />
         <activity android:name=".Dashboard" />
         <!--
                Set to true if your app is Standalone, that is, it does not require the handheld

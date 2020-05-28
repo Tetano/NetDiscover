@@ -2,23 +2,23 @@ package com.unitins.netdiscover
 
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.database.FirebaseDatabase
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.tasks.await
 import kotlinx.coroutines.withContext
-import java.lang.Exception
 
 
 class MainActivity : AppCompatActivity() {
     lateinit var auth: FirebaseAuth
+    var database = FirebaseDatabase.getInstance()
     var context = this
     override fun onCreate(savedInstanceState: Bundle?) {
 
