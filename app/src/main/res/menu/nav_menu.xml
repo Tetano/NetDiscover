@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/monitorar"
+        android:icon="@drawable/recursos"
+        android:title="Monitorar">
+    </item>
+
+    <item
+        android:id="@+id/recursos"
+        android:icon="@drawable/monitorar"
+        android:title="Recursos">
+    </item>
+
+    <item
+        android:id="@+id/log"
+        android:icon="@drawable/log"
+        android:title="Logs">
+    </item>
+
+</menu>
